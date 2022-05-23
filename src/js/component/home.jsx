@@ -9,8 +9,9 @@ import ActualizarHora2 from "./RelojAutomatico/ActualizarHora2.jsx";
 const Home = () => {
 	return (
 		<div>
-			<ActualizarHora></ActualizarHora>
-			<ActualizarHora2></ActualizarHora2>
+			<ActualizarHora>
+				<ActualizarHora2></ActualizarHora2>
+			</ActualizarHora>
 		</div>
 	);
 };

@@ -2,8 +2,8 @@ import React from "react";
 
 const ActualizarHora = () => {
 	return (
-		<div class="wrap">
-			<div class="widget">
+		<div className="wrap">
+			<div className="widget">
 				<div className="fecha">
 					<p id="diaSemana" className="diaSemana"></p>
 
