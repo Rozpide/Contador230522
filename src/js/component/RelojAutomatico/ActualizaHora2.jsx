@@ -3,7 +3,6 @@ import React from "react";
 const ActualizarHora2 = () => {
 	
 	
-		
 	let fecha = new Date(),
 		horas = fecha.getHours(),
 		ampm,
@@ -73,8 +72,13 @@ const ActualizarHora2 = () => {
 	pMinutos.textContent = minutos;
 	pSegundos.textContent = segundos;
 	
-	var intervalo = setInterval(ActualizarHora2, 1000);
+	let intervalo = setInterval(ActualizarHora2, 1000);
 
-		
+	
 };
+		
+	
+	
+		
+	
 export default ActualizarHora2;
