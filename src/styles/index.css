@@ -10,3 +10,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+.wrap{width: 90%;
+    max-width: 1000px;
+    margin: 2em;
+}
+.widget{
+    width: 40%;
+    margin:2em;
+}
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+.fecha{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background: rgba(189, 59, 59, 0.5);
+    padding: 20px;
+    width: 100%;
+}
+.reloj{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(166, 32, 32, 0.5);
+}
+.reloj .caja-segundos{
+    display: inline-block;
+}
+.reloj .caja-segundos{
+    font-size: 1em;
+    display: inline-block;
+}
+
+.reloj .ampm{
+    font-size: 0.5em;
+    display: block;
+}
