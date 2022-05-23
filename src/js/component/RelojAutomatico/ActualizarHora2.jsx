@@ -1,25 +1,23 @@
 import React from "react";
 
 const ActualizarHora2 = () => {
-	
-	
-	let fecha = new Date(),
-		horas = fecha.getHours(),
-		ampm,
-		minutos = fecha.getMinutes(),
-		segundos = fecha.getSeconds(),
-		diaSemana = fecha.getDay(),
-		dia = fecha.getDate(),
-		mes = fecha.getMonth(),
-		year = fecha.getFullYear();
-	let pHoras = document.getElementById("horas"),
-		pAMPM = document.getElementById("ampm"),
-		pMinutos = document.getElementById("minutos"),
-		pSegundos = document.getElementById("segundos"),
-		pDiaSemana = document.getElementById("diaSemana"),
-		pDia = document.getElementById("dia"),
-		pMes = document.getElementById("mes"),
-		pYear = document.getElementById("year");
+	let fecha = new Date();
+	let horas = fecha.getHours();
+	let ampm;
+	let minutos = fecha.getMinutes();
+	let segundos = fecha.getSeconds();
+	let diaSemana = fecha.getDay();
+	let dia = fecha.getDate();
+	let mes = fecha.getMonth();
+	let year = fecha.getFullYear();
+	let pHoras = document.getElementById("horas");
+	let pAMPM = document.getElementById("ampm");
+	let pMinutos = document.getElementById("minutos");
+	let pSegundos = document.getElementById("segundos");
+	let pDiaSemana = document.getElementById("diaSemana");
+	let pDia = document.getElementById("dia");
+	let pMes = document.getElementById("mes");
+	let pYear = document.getElementById("year");
 
 	let semana = [
 		" Domingo ",
@@ -71,14 +69,9 @@ const ActualizarHora2 = () => {
 
 	pMinutos.textContent = minutos;
 	pSegundos.textContent = segundos;
-	
-	let intervalo = setInterval(ActualizarHora2, 1000);
 
-	
+	let intervalo = setInterval(ActualizarHora2, 1000);
+	return <></>;
 };
-		
-	
-	
-		
-	
+
 export default ActualizarHora2;

@@ -4,28 +4,28 @@ const ActualizarHora = () => {
 	return (
 		<div class="wrap">
 			<div class="widget">
-				<div class="fecha">
-					<p id="diaSemana" class="diaSemana"></p>
+				<div className="fecha">
+					<p id="diaSemana" className="diaSemana"></p>
 
-					<p id="dia" class="dia">
+					<p id="dia" className="dia">
 						{" "}
 					</p>
 					<p> de </p>
 
-					<p id="mes" class="mes">
+					<p id="mes" className="mes">
 						{" "}
 					</p>
 					<p> del </p>
-					<p id="year" class="Year"></p>
+					<p id="year" className="Year"></p>
 				</div>
 				<div class="reloj">
-					<p id="horas" class="horas"></p>
+					<p id="horas" className="horas"></p>
 					<p>:</p>
-					<p id="minutos" class="minutos"></p>
+					<p id="minutos" className="minutos"></p>
 					<p>:</p>
 					<div class="caja-segundos">
-						<p id="ampm" class="ampm"></p>
-						<p id="segundos" class="segundos"></p>
+						<p id="ampm" className="ampm"></p>
+						<p id="segundos" className="segundos"></p>
 					</div>
 				</div>
 			</div>
