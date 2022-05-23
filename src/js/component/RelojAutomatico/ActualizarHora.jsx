@@ -1,6 +1,5 @@
 import React from "react";
-import ActualizarHora2 from "./Reloj.jsx";
-import ActualizarHora3 from "./Reloj2.jsx";
+
 const ActualizarHora = () => {
 	return (
 		<div class="wrap">
